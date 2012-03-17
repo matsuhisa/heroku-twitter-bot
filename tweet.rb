@@ -48,7 +48,8 @@ EOF
   end
 
   def random_tweet
-    tweet = @text[rand(@text.length)]
+    tweet = 'test tweet'
+    #tweet = @text[rand(@text.length)]
     update(tweet)
   end
 
