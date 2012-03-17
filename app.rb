@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'sinatra'
-require 'tweet.rb'
+require './tweet.rb'
 
 get '/' do
   'under construction'
