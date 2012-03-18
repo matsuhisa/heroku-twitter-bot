@@ -40,10 +40,10 @@ class Tweet
 EOF
 
     Twitter.configure do |config|
-      config.consumer_key       = 'QLMbxF9ohfjpp9lUTNfHA'
-      config.consumer_secret    = '7MtBmz4KrNdkDKZzz4BHeU4yo2SXRzkIhGzdIKKIBU'
-      config.oauth_token        = '527457146-NM0Y8RIlQFmYzNqNjxwRMMdsl7OIlKJ3p3Ge3aOX'
-      config.oauth_token_secret = 'KN5Nd4jvBL4tlmvhInIlNYDwuCrORguDJNubQUjlk'
+	  config.consumer_key       = 'QLMbxF9ohfjpp9lUTNfHA'
+  	  config.consumer_secret    = '7MtBmz4KrNdkDKZzz4BHeU4yo2SXRzkIhGzdIKKIBU'
+  	  config.oauth_token        = '527457146-NM0Y8RIlQFmYzNqNjxwRMMdsl7OIlKJ3p3Ge3aOX'
+  	  config.oauth_token_secret = '7KN5Nd4jvBL4tlmvhInIlNYDwuCrORguDJNubQUjlk'
     end
   end
 
