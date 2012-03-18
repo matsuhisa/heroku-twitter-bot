@@ -48,8 +48,8 @@ EOF
   end
 
   def random_tweet
-    tweet = 'test tweet'
-    #tweet = @text[rand(@text.length)]
+    #tweet = 'test tweet'
+    tweet = @text[rand(@text.length)]
     update(tweet)
   end
 
@@ -60,7 +60,7 @@ EOF
 
   private
   def update(tweet)
-    return nil unless tweet
+	return nil unless tweet
 
     begin
       Twitter.update(tweet.chomp)
